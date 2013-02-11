@@ -1,0 +1,32 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    chingu (0.9rc9)
+      gosu (>= 0.7.45)
+      gosu (>= 0.7.45)
+    clipboard (0.9.9)
+    coderay (1.0.8)
+    ffi (1.0.11)
+    fidgit (0.2.4)
+      chingu (~> 0.9rc7)
+      clipboard (~> 0.9.9)
+      ffi (~> 1.0.11)
+      gosu (~> 0.7.41)
+    gosu (0.7.45)
+    method_source (0.8.1)
+    pry (0.9.11.4)
+      coderay (~> 1.0.5)
+      method_source (~> 0.8)
+      slop (~> 3.4)
+    require_all (1.2.1)
+    slop (3.4.3)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  chingu
+  fidgit
+  gosu
+  pry
+  require_all
