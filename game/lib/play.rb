@@ -9,7 +9,7 @@ class Play < Chingu::GameState
 
   def setup
       @hero = Hero.create(x: 100, y: 100)
-      @status = Status.create(hero: @hero)
+      # @status = Status.create(hero: @hero)
       5.times { new_wurb }
   end
 
